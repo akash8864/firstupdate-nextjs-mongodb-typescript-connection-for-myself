@@ -1,4 +1,3 @@
-import { Document } from "mongoose";
 type Person = {firstName: string, lastName?:string}
 export interface IUser  {
     name:Person,
