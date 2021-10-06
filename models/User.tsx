@@ -39,13 +39,13 @@ const UserSchema: Schema = new Schema({
   createdAt: {
     type: Date,
     default: Date.now,
-    timestamp:true
+    timestamp: true,
   },
   updatedBy: String,
   updatedAt: {
     type: Date,
     default: Date.now,
-    timestamp:true
+    timestamp: true,
   },
 });
 export const User: Model<IUser> =

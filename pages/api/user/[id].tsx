@@ -1,9 +1,7 @@
-import { IUser } from "interfaces/IUser";
 import { User } from "models/User";
 import { NextApiRequest, NextApiResponse } from "next";
 import { connectToDatabase } from "utils";
 connectToDatabase();
-
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   const {
     query: { id },
